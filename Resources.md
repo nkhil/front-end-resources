@@ -28,7 +28,7 @@ CodePen: https://codepen.io/kevinpowell/pen/21f2833aa4a9c6929d5dc6404dcd1e75
 ```
 ## SASS lighten(), darken() and more
 
-SASS comes with functions you can use without declaring. I'll add examples below. 
+SASS comes with functions you can use without declaring. I'll add examples below. I use these mostly to add hover states on buttons, containers, links etc. 
 
 **Examples**
 
