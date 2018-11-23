@@ -43,4 +43,4 @@ tint( $base-color, 10% )
 shade( $base-color, 10% )
 ```
 
-[Further reading](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+[Further reading →](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
