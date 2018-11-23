@@ -26,3 +26,21 @@ CodePen: https://codepen.io/kevinpowell/pen/21f2833aa4a9c6929d5dc6404dcd1e75
   color: white;
 }
 ```
+## SASS lighten(), darken() and more
+
+SASS comes with functions you can use without declaring. I'll add examples below. 
+
+**Examples**
+
+```
+darken( $base-color, 10% )
+lighten( $base-color, 10% )
+saturate( $base-color, 20% )
+desaturate( $base-color, 20% )
+adjust-hue( $base-color, 20% )
+rgba( $base-color, .7 ) // alpha transparency
+tint( $base-color, 10% )
+shade( $base-color, 10% )
+```
+
+[Further reading](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
