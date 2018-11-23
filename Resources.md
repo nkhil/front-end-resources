@@ -2,6 +2,8 @@
 
 ## Consistently add a gradient to any container making it darker or lighter with a couple of lines of CSS. 
 
+Add a gradient that starts 100% transparent, and ends slightly less transparent (eg: rgba(255,255,255,.25))  in order to give your container/item some more depth. 
+
 Video: https://www.youtube.com/watch?v=5sHUHVU3I4g
 
 CodePen: https://codepen.io/kevinpowell/pen/21f2833aa4a9c6929d5dc6404dcd1e75
