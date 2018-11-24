@@ -63,3 +63,7 @@ body {
 }
 ```
 *It’s worth noting that system-ui works in place of BlinkMacSystemFont in newer versions of Chrome.*
+
+Related article: https://booking.design/implementing-system-fonts-on-booking-com-a-lesson-learned-bdc984df627f
+
+> don’t use -apple-system at the head of a shorthand font declaration, and test thoroughly, especially when playing around with proprietary stuff like system font declarations. If it looks like a vendor prefix and smells like a vendor prefix, chances are at least one browser is going to treat it like a vendor prefix.
