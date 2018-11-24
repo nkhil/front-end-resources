@@ -49,7 +49,7 @@ shade( $base-color, 10% )
 
 Article: https://css-tricks.com/snippets/css/system-font-stack/
 
-**Here's how Github uses it**
+**Usage**
 
 ```
 /* System Fonts as used by GitHub */
