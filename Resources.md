@@ -26,7 +26,7 @@ CodePen: https://codepen.io/kevinpowell/pen/21f2833aa4a9c6929d5dc6404dcd1e75
   color: white;
 }
 ```
-## SASS lighten(), darken() and more
+## Use SASS lighten(), darken() and more to programatically lighten or darken colours 
 
 SASS comes with functions you can use without declaring. I'll add examples below. I use these mostly to add hover states on buttons, containers, links etc. 
 
@@ -44,3 +44,21 @@ shade( $base-color, 10% )
 ```
 
 [Further reading →](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+
+## Use system-ui fonts to improve performance
+
+Article: https://css-tricks.com/snippets/css/system-font-stack/
+
+**Here's how Github uses it**
+
+```
+/* System Fonts as used by GitHub */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* System Fonts as used by Medium and WordPress */
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+```
