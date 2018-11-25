@@ -67,3 +67,37 @@ body {
 Related article: https://booking.design/implementing-system-fonts-on-booking-com-a-lesson-learned-bdc984df627f
 
 > don’t use -apple-system at the head of a shorthand font declaration, and test thoroughly, especially when playing around with proprietary stuff like system font declarations. If it looks like a vendor prefix and smells like a vendor prefix, chances are at least one browser is going to treat it like a vendor prefix.
+
+## Doing CSS Breakpoints right
+
+Link: https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
+
+This is a really practical way to use mixins (in SASS) to define your breakpoints, and use it in a readable, declarative way. I haven't really found other ways that are better than this. 
+
+
+**The Code:**
+```
+
+@mixin for-size($size) {
+  @if $size == phone-only {
+    @media (max-width: 599px) { @content; }
+  } @else if $size == tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+  } @else if $size == tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+  } @else if $size == desktop-up {
+    @media (min-width: 1200px) { @content; }
+  } @else if $size == big-desktop-up {
+    @media (min-width: 1800px) { @content; }
+  }
+}
+
+// usage
+.my-box {
+  padding: 10px;
+  
+  @include for-size(desktop-up) {
+    padding: 20px;
+  }
+}
+```
