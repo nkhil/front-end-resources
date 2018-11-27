@@ -2,7 +2,7 @@
 
 ## Hi! My name is Nikhil and I really like UI and interaction design stuff. This is my public repository of useful front-end related things I've comes across on the internet. I hope some of it is useful for you too.
 
-# Resources
+# <<== LINKS START HERE ==>>
 
 ## Consistently add a gradient to any container making it darker or lighter with a couple of lines of CSS. 
 
