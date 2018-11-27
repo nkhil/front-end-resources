@@ -101,3 +101,14 @@ This is a really practical way to use mixins (in SASS) to define your breakpoint
   }
 }
 ```
+
+## Using `calc()` for fluid typography
+
+Link: https://css-tricks.com/snippets/css/fluid-typography/
+
+**Code:**
+```
+body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+}
+```
