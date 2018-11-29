@@ -4,6 +4,14 @@
 
 # <<== LINKS START HERE ==>>
 
+## Useful one-pager on Animations & performance
+
+link: https://developers.google.com/web/fundamentals/design-and-ux/animations/animations-and-performance
+
+>Animating properties is not free, and some properties are cheaper to animate than others. For example, animating the width and height of an element changes its geometry and may cause other elements on the page to move or change size. This process is called layout (or reflow in Gecko-based browsers like Firefox), and can be expensive if your page has a lot of elements. Whenever layout is triggered, the page or part of it will normally need to be painted, which is typically even more expensive than the layout operation itself.
+
+>Where you can, you should avoid animating properties that trigger layout or paint. For most modern browsers, this means limiting animations to opacity or transform, both of which the browser can highly optimize; it doesn’t matter if the animation is handled by JavaScript or CSS.
+
 ## Consistently add a gradient to any container making it darker or lighter with a couple of lines of CSS. 
 
 Add a gradient that starts 100% transparent, and ends slightly less transparent (eg: rgba(255,255,255,.25))  in order to give your container/item some more depth. 
