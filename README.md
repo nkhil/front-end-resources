@@ -1,8 +1,8 @@
-# My list of useful front end resources and 'ooh I didn't know that' facts to do with the front end.
+# My list of useful front end resources
 
-## Hi! My name is Nikhil and I really like UI and interaction design stuff. This is my public repository of useful front-end related things I've comes across on the internet. I hope some of it is useful for you too.
+## All your brilliant programming skills are for naught if the end-user isn't able to use your interface, or understand how to use it. This is my public repository of useful front-end related tips & articles I've comes across on the internet. 
 
-# <<== LINKS START HERE ==>>
+# <<====>>
 
 ## Useful one-pager on Animations & performance
 
