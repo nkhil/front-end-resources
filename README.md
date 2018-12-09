@@ -1,9 +1,5 @@
 # My list of useful front end resources
 
-## All your brilliant programming skills are for naught if the end-user isn't able to use your interface, or understand how to use it. This is my public repository of useful front-end related tips & articles I've comes across on the internet. 
-
-# <<====>>
-
 ## Useful one-pager on Animations & performance
 
 link: https://developers.google.com/web/fundamentals/design-and-ux/animations/animations-and-performance
