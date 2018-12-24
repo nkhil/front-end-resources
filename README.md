@@ -10,6 +10,10 @@ link: https://developers.google.com/web/fundamentals/design-and-ux/animations/an
 
 >Where you can, you should avoid animating properties that trigger layout or paint. For most modern browsers, this means limiting animations to opacity or transform, both of which the browser can highly optimize; it doesn’t matter if the animation is handled by JavaScript or CSS.
 
+## Some great UI design tips
+
+[Twitter thread →](https://twitter.com/i/moments/994601867987619840?s=13)
+
 ## Use system-ui fonts to improve performance
 
 Article: https://css-tricks.com/snippets/css/system-font-stack/
