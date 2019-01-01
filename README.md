@@ -15,6 +15,8 @@ This is an excellent collection of UI design tips that helped me understand how 
 
 [Twitter thread →](https://twitter.com/i/moments/994601867987619840?s=13)
 
+Speaking on UI design tips, [Can't Unsee](https://cantunsee.space/) teaches you better UI design principles using a multiple-choice quiz.
+
 ## Use system-ui fonts to improve performance
 
 Article: https://css-tricks.com/snippets/css/system-font-stack/
